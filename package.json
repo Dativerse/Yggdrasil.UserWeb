@@ -1,0 +1,39 @@
+{
+  "name": "user-web",
+  "version": "1.0.0",
+  "description": "Part of the Yggdrasil.NET Distributed IOT System.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dativerse/Yggdrasil.UserWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dativerse/Yggdrasil.UserWeb/issues"
+  },
+  "homepage": "https://github.com/dativerse/Yggdrasil.UserWeb#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vite": "^7.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.3",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
